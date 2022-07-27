@@ -1,0 +1,37 @@
+.header {
+   display: flex;
+   align-items: center;
+   width: 1100px;
+   height: 80px;
+   margin: 0 auto;
+   background-color: #EDF7FA;
+   border-radius: 15px;
+}
+
+.logo {
+   margin-left: 70px;
+
+}
+
+.list-menu {
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   margin-left: 700px;
+}
+
+
+.menu-link {
+   font-family: var(--primary-font);
+   color: var(--title-color);
+   font-weight: 500;
+   font-size: 16px;
+   text-decoration: none;
+   margin-right: 30px;
+
+}
+
+.menu-link:hover {
+   color: rgb(30, 116, 245);
+   transition: 300ms;
+}

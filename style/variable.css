@@ -1,0 +1,20 @@
+:root {
+   --main-color: #21243D;
+   --text-size: 18px;
+   --title-color: #000;
+   --article-title-color: #0A2A42;
+   --main-backround: #FFF;
+   --subtitle-color: #636B78;
+   --primary-font: 'Inter', sans-serif;
+   --secondary-font: 'Heebo', sans-serif;
+   --conteiner-size: 900px;
+}
+
+body {
+   font-family: var(--primary-font);
+
+}
+
+ul {
+   list-style: none;
+}
